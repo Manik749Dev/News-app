@@ -10,9 +10,9 @@ const App = () => {
   const [progress, setProgress] = useState(0);
   const apiKey = "18a7f39004af40e38a4c6ad1ed4f3e0f"; // Hardcoded working key
   return (
-    <Router>
+    <Router>d
       <NavBar />
-      <LoadingBar height={3} color="#f11946" progress={progress} />
+      <LoadingBar height={3} color="#2f19f1ff" progress={progress} />
 
       <Routes>
         <Route
